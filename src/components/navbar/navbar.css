@@ -1,0 +1,136 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  padding: 2rem 2rem;
+  color: var(--periwinkle);
+  background-color: var(--oxford-blue);
+  background-image: linear-gradient(to bottom right, #112240, var(--oxford-blue));
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 50px var(--oxford-blue-light);
+  background-color: var(--oxford-blue);
+}
+
+.navbar__menu-container {
+  display: none;
+}
+
+.navbar__name {
+  color: var(--persian-green);
+  font-size: 1rem;
+}
+
+.navbar__icons-wrapper:hover .navbar__name {
+  transform: scale(1.1);
+}
+.navbar__icons-wrapper:hover {
+  border-color: var(--persian-green);
+  transform: scale(1.1);
+}
+
+.navbar__icons {
+  display: block;
+}
+
+.navbar__icons-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid var(--periwinkle);
+  border-radius: 50%;
+  line-height: 1;
+  height: 3rem;
+  width: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--periwinkle);
+}
+
+a:hover {
+  color: var(--persian-green);
+  text-decoration: underline;
+}
+
+.top-react-icons {
+  min-width: 2rem;
+  font-size: 2rem;
+}
+
+.navbar__icons-wrapper-fax {
+  font-size: 1.5rem;
+}
+
+.navbar__icons-wrapper-faBars {
+  font-size: 2rem;
+}
+
+.navbar__icons-wrapper-fax:hover {
+  color: var(--persian-green);
+}
+
+.navbar__icons-wrapper-faBars:hover {
+  color: var(--persian-green);
+  transform: scale(1.1);
+}
+
+.navbar__toggle-menu-container {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  position: absolute;
+  margin: 1rem 2rem 0 0;
+  right: 0;
+  row-gap: 1.5rem;
+  background-color: var(--oxford-blue);
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  a.navbar__toggle-menu-container {
+    padding: 0 0.5rem;
+  }
+
+  .navbar__menu-container {
+    display: flex;
+    column-gap: 1.5rem;
+  }
+  .navbar__icons {
+    display: none;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  a.navbar__toggle-menu-container {
+    padding: 0 0.5rem;
+  }
+  .navbar__menu-container {
+    display: flex;
+    column-gap: 1.5rem;
+  }
+  .navbar__icons {
+    display: none;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+  a.navbar__toggle-menu-container {
+    padding: 0 0.5rem;
+  }
+  .navbar__menu-container {
+    display: flex;
+    column-gap: 1.5rem;
+  }
+  .navbar__icons {
+    display: none;
+  }
+}

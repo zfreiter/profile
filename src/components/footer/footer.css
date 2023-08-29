@@ -1,0 +1,14 @@
+.footer__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+  height: 5rem;
+  padding: 0 2em;
+  color: var(--persian-green);
+  box-shadow: 0 -2px 50px var(--oxford-blue-light);
+}
+
+.footer__footer-img:hover {
+  transform: scale(1.5);
+}
