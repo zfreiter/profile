@@ -6,7 +6,6 @@ import REACT from '../../assets/react.svg';
 import MongoDb from '../../assets/Mongodb-icon.svg';
 import Figma from '../../assets/figma-icon.svg';
 import Express from '../../assets/expressjs-icon.svg';
-import '../../app.css';
 import './skills.css';
 
 const Skills = () => {

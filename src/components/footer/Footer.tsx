@@ -1,4 +1,3 @@
-//import Linkedin from '../../assets/LinkedIn_icon.svg';
 import { SiLinkedin, SiGithub } from 'react-icons/si';
 import './footer.css';
 

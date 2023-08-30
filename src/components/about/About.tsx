@@ -1,6 +1,5 @@
 import { useInView } from 'react-intersection-observer';
 import stock from '../../assets/profile-picture.jpg';
-
 import './about.css';
 
 const About = () => {
